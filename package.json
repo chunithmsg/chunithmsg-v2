@@ -4,11 +4,11 @@
   "version": "0.0.1",
   "scripts": {
     "astro": "astro",
-    "build": "astro check && astro build",
+    "build": "bunx --bun astro check && bunx --bun astro build",
     "ci": "bun install --frozen-lockfile",
-    "dev": "astro dev",
-    "preview": "astro preview",
-    "start": "astro dev"
+    "dev": "bunx --bun astro dev",
+    "preview": "bunx --bun astro preview",
+    "start": "bunx --bun astro dev"
   },
   "dependencies": {
     "@astrojs/alpinejs": "^0.4.0",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.5.0",
+    "@types/bun": "^1.1.4",
     "@types/eslint__js": "^8.42.3",
     "eslint": "^9.5.0",
     "eslint-plugin-astro": "^1.2.2",
