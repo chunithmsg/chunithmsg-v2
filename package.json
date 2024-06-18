@@ -11,15 +11,19 @@
     "start": "bunx --bun astro dev"
   },
   "dependencies": {
-    "@astrojs/alpinejs": "^0.4.0",
     "@astrojs/check": "^0.7.0",
     "@astrojs/partytown": "^2.1.1",
     "@astrojs/sitemap": "^3.1.6",
     "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vue": "^4.5.0",
+    "@iconify/vue": "^4.1.2",
+    "@tailwindcss/typography": "^0.5.13",
     "@types/alpinejs": "^3.13.10",
     "alpinejs": "^3.14.0",
     "astro": "^4.10.3",
-    "tailwindcss": "^3.4.4"
+    "radix-vue": "^1.8.4",
+    "tailwindcss": "^3.4.4",
+    "vue": "^3.4.29"
   },
   "devDependencies": {
     "@eslint/js": "^9.5.0",
