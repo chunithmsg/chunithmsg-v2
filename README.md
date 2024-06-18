@@ -4,8 +4,8 @@ Chunithm Singapore Website Version 2
 
 ## Project Requirements
 
-- Bun Latest Version
-- 17.00 Rating on Chunithm (Optional)
+- Bun Latest Version (Required)
+- 17.00 Rating on Chunithm (Recommended)
 
 ## Installation
 
