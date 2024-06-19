@@ -8,5 +8,12 @@ import vue from "@astrojs/vue";
 // https://astro.build/config
 export default defineConfig({
   site: "https://chunithm.sg",
-  integrations: [sitemap(), tailwind(), partytown(), vue()]
+  integrations: [
+    sitemap(),
+    tailwind({
+      applyBaseStyles: false,
+    }),
+    partytown(),
+    vue(),
+  ],
 });
