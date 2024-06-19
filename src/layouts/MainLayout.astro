@@ -1,5 +1,6 @@
 ---
-import '@/styles/globals.css'
+import "@/styles/globals.css";
+import { ModeToggle } from "@/components/mode-toggle";
 
 interface Props {
   title: string;
@@ -41,8 +42,11 @@ const { title, description, path = "" } = Astro.props;
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content="" />
   </head>
-  <body>
+  <body class="min-h-screen bg-background font-sans antialiased">
     <slot />
+    <div class="absolute bottom-4 right-4">
+      <ModeToggle client:load />
+    </div>
   </body>
 </html>
 
